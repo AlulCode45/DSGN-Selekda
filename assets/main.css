@@ -160,7 +160,7 @@ main{
 .color-selected{
     width: 100%;
     border-radius: 10px;
-    background: white;
+    background: black;
     border: white;
     height: 100px;
 }
