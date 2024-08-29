@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+
+    <main>
+        <div id="toolbar">
+            <div class="logo">
+                <span>dsGn</span>
+            </div>
+            <div class="tools">
+                <div class="tool" id="brush">
+                    Brush
+                </div>
+                <div class="tool" id="bucket">
+                    Bucket
+                </div>
+                <div class="tool" id="eraser">
+                    Eraser
+                </div>
+                <div class="tool" id="text">
+                    Text
+                </div>
+                <div class="tool" id="move">
+                    Move
+                </div>
+                <div class="tool" id="stamp">
+                    Stamp
+                </div>
+                <div class="tool" id="picker">
+                    Picker
+                </div>
+                <div class="tool" id="shape">
+                    Shape
+                </div>
+            </div>
+            <div class="bottom-tools">
+                <div class="tool" id="paste">
+                    Paste
+                </div>
+                <div class="tool" id="undo">
+                    Undo
+                </div>
+                <div class="tool" id="redo">
+                    Redo
+                </div>
+                <div class="tool" id="save">
+                    Save
+                </div>
+                <div class="tool" id="load">
+                    Load
+                </div>
+                <div class="tool" id="clear">
+                    Clear
+                </div>
+            </div>
+        </div>
+        <div id="work-area">
+            <div id="topbar">
+                <div class="menu-top">
+                    <div id="choose-shape">
+                        <span>Shape : </span>
+                        <button id="circle-shape">
+                            <div></div>
+                        </button>
+                        <button id="rectangle-shape">
+                            <div></div>
+                        </button>
+                    </div>
+                    <div class="size-slider">
+                        <span>Size : </span>
+                        <input type="range" min="1" max="100" value="10" id="size">
+                    </div>
+                    <div class="opacity-selector">
+                        <span>Opacity</span>
+                        <button>100</button>
+                        <button>50</button>
+                        <button>0</button>
+                    </div>
+                </div>
+            </div>
+            <canvas>
+            </canvas>
+        </div>
+        <!-- <div id="property">
+        </div> -->
+    </main>
+
+
+    <script src="assets/main.js`"></script>
+</body>
+
+</html>
